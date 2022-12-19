@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  :root{
+      --primary-color: red;
+      --secondary-color: blue;
+      --third-color:lightgreen;
+      --fourth-color: yellow;
+      --fifth-color: orange;
+      --sixth-color: pink;
+      --seventh-color: aqua;
+      --eighth-color: blueviolet;
+      --ninth-color: mistyrose;
+      --tenth-color: black;
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 50rem;
+      background-color: var(--third-color);
+      padding-top: 6rem;
+      padding-bottom: 10rem;
+      border-radius: 3rem;
+  }
+  
+  .heading{
+      color: var(--tenth-color);
+      text-align: center;
+      background-color: var(--seventh-color);
+      border-radius: 3rem;
+  }
+  
+  .description{
+      text-align: center;
+      color: var(--tenth-color);
+      background-color: var(--fourth-color);
+      font-weight: bold;
+      font-size: medium;
+      padding: 1rem;
+      border-radius: 3rem;
+  }
+  
+  .buttons{
+      text-align: center;
+      color: var(--eighth-color);
+      background-color: var(--ninth-color);
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 3rem;
+  }
+  .chekbutton{
+      text-align: center;
+      color: var(--secondary-color);
+      background-color: var(--fourth-color);
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 3rem;
+  
+  }
+  .errormsg{
+      text-align: center;
+      color: var(--eighth-color);
+      background-color: var(--ninth-color);
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 3rem;
+  
+  }
+  
+  .change-table{
+      background-color: var(--ninth-color);
+      text-align: center;
+      height: 5rem;
+      word-spacing: normal;
+  }
+  
+  .note{
+      padding: 1rem;
+  }
+  .no-of-notes{
+      padding: 1rem;
+  }
+  
+  .caption-style{
+      font-size: medium;
+      font-weight: bold;
+  }
