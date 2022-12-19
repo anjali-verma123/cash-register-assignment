@@ -13,10 +13,16 @@ checkButton.addEventListener("click", function validateBillAndCashAmount(){
         if (cashGiven.value >= billAmount.value){
             var amountToBeReturned = cashGiven.value-billAmount.value;  
             calculateChange(amountToBeReturned);
-            //showMessage("Thankyou For Shopping!!!!");
+            showMessage("Thankyou For Shopping!!!!");
         }else{
             showMessage("Cash Given must be greater than Bill Amount");
+            // showMessage.style.textAlign = "center";
         }
+    }else if(billAmount.value == 0){
+        showMessage("Bill Amount must be greater than 0");
+        // showMessage.style.textAlign = "center";
+    }else if(cashGiven.value == 0){
+        showMessage("Cash given must be greater than 0");
     }else{
         showMessage("Invalid Input");
     }
